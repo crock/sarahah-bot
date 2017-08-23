@@ -19,9 +19,9 @@ Once you obtain a proxy, fill in the proxy info in `proxies.json` then save the 
 
         If you don't tick the box, add Python to your PATH environment manually. Watch [this](https://youtu.be/Y2q_b4ugPWk) video if you need help with that.
 
-3. Open Terminal on Mac or CMD on Windows
+2. Open Terminal on Mac or CMD on Windows
 
-4. Run the following command to install the dependencies:
+3. Run the following command to install the dependencies:
 
 **Python 2**
 
@@ -35,7 +35,7 @@ pip install requests
 pip3 install requests
 ```
 
-5. Run the script like this
+4. Run the script like this
 
 **Python 2**
 
