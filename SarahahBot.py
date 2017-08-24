@@ -16,7 +16,7 @@ sendMessage = "https://%s.sarahah.com/Messages/SendMessage" % username
 thankyou = "http://www.sarahah.com/messages/thankyou"
 
 file = open("proxies.json", "r")
-proxies = json.load(file.read())
+proxies = json.load(file)
 file.close()
 
 s = requests.Session()
