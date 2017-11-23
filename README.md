@@ -1,16 +1,19 @@
+**CONSIDER THIS SCRIPT ABANDONED AND NO LONGER WORKING. BLAME THE SARAHAH DEVELOPER, NOT ME.**
+
+
 # Sarahah Spam Bot
 
 With this script, you can spam any user on Sarahah with a message of your choice.
 
 ### Compatibility
 
-Python 2 or 3+
+Python 3+
 
 ### Requirements
 
 Requires a proxy to work successfully. I do not include any proxies with the script, so you will have to obtain these on your own from a third-party.
 
-Once you obtain a proxy, fill in the proxy info in `proxies.json` then save the file.
+Once you obtain some proxies, paste them (one per line) in `proxies.txt`
 
 ### Installation and Usage
 
@@ -21,32 +24,17 @@ Once you obtain a proxy, fill in the proxy info in `proxies.json` then save the 
 
 2. Open Terminal on Mac or CMD on Windows
 
-3. Run the following command to install the dependencies:
-
-**Python 2**
+3. Run the following command in your terminal to install the dependencies:
 
 ```
 pip install requests
 ```
 
-**Python 3**
-
-```
-pip3 install requests
-```
-
 4. Run the script like this
 
-**Python 2**
 
 ```
-python SarahahBot.py URL OPTION COUNT
-```
-
-**Python 3**
-
-```
-python3 SarahahBot.py USERNAME TEXT COUNT
+python SarahahBot.py USERNAME TEXT COUNT
 ```
 
 **EXAMPLE**

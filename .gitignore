@@ -1,1 +1,4 @@
 .vscode/
+.idea/
+test.html
+lib/__pycache__
